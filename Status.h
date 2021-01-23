@@ -7,3 +7,5 @@
 #define OVERFLOW -2
 
 typedef int Status;
+
+void Wait(long time);
