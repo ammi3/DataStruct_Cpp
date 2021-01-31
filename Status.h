@@ -1,3 +1,4 @@
+#include <stdio.h>
 // 函数结果状态码
 #define TRUE 1
 #define FALSE 0
@@ -7,5 +8,7 @@
 #define OVERFLOW -2
 
 typedef int Status;
+
+int ReadData(FILE *fp, char *format, ...);
 
 void Wait(long time);

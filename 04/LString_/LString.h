@@ -1,6 +1,6 @@
 #include <iostream>
 #include <string.h>
-#include "Status.h"
+#include "../../Status.h"
 using namespace std;
 
 #define CHUNKSIZE 3 // 块大小
